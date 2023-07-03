@@ -1,0 +1,71 @@
+.inner{
+    width:940px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+.blind{
+    display: block;
+    width:1px;
+    height:1px;
+    position:relative;
+    clip:rect(1px 1px 1px 1px);
+    overflow: hidden;
+    z-index:-1;
+    border:none;
+}
+.head-top-left a:first-child:before,
+.search-btn,
+.log-wrap-btn:after{
+    background-image: url(../images/hd_5.0.png);
+}
+.rank-up:before,
+.rank-down:before,
+.rank-change,
+.chart-play,
+.chart-add,
+.chart-etc,
+.all-play:before,
+.all-add:before{
+    background-image: url(../images/list_180122.png);
+}
+.log-in:before{
+    background-image:url(../images/login_201222.png);
+}
+.sns-log:before{
+    background-image: url(../images/login_200407.png);
+}
+.music-item .event{
+    background-image: url(../images/recent_icon_5.0.png);
+}
+.music-play,
+.music-add{
+    background-image:url(../images/list_180122.png);
+}
+.recent-btn-box button{
+    background-image:url(../images/recent_paging.png);
+}
+.hot-pause-btn,
+.hot-prev-btn,
+.hot-next-btn{
+    background-image: url(../images/event_paging.png);
+}
+.dj-name:before{
+    background-image:url(../images/DJ.png);
+}
+.selection-btn:after,
+.recommend-music-close:after{
+    background-image:url(../images/editor_fold_small.png)
+}
+.selection-play-wrap:after,
+.video-play{
+    background-image: url(../images/editor_btn_play.png);
+}
+.recommend-more-show:after,
+.recommend-more-hide:after{
+    background-image:url(../images/editor_fold.png);
+}
+.notice-prev,
+.notice-next,
+.sns{
+    background-image:url(../images/ft.png);
+}
