@@ -485,9 +485,12 @@ header {
     color: #444;
 }
 
+main{
+    padding-top:32px;
+}
 /* recent-music */
 .recent-music {
-    margin: 32px 0 29px;
+    margin-bottom:29px;
     position: relative;
 }
 
